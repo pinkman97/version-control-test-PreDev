@@ -1,0 +1,26 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "1b4cea70-41ac-11ee-952d-fb2908301aee"
+    },
+    "name" : "test role vc",
+    "ownerId" : null,
+    "permissions" : {
+      "ALARM" : [ "READ" ]
+    },
+    "type" : "GENERIC"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
