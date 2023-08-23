@@ -1,0 +1,63 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : false,
+    "configuration" : {
+      "baseUrl" : "https://dev-tesenso.selisecloud.com",
+      "replaceNoContentToOk" : false,
+      "enableSecurity" : false,
+      "headersFilter" : { },
+      "httpEndpoint" : "https://dev-tesenso.selisecloud.com/api/v1/integrations/http/eba42dbe-c011-1b33-069f-99d27aa97f7f",
+      "metadata" : {
+        "content-type" : "sample"
+      },
+      "clientConfiguration" : {
+        "cleanSession" : false,
+        "clientId" : "",
+        "connectTimeoutSec" : 10,
+        "host" : "",
+        "maxBytesInMessage" : 32368,
+        "port" : 8884,
+        "ssl" : false,
+        "credentials" : {
+          "caCert" : "",
+          "caCertFileName" : "",
+          "cert" : "",
+          "certFileName" : "",
+          "privateKey" : "",
+          "privateKeyFileName" : "",
+          "privateKeyPassword" : "",
+          "password" : "",
+          "username" : "",
+          "type" : "anonymous"
+        }
+      },
+      "downlinkTopicPattern" : "${topic}",
+      "topicFilters" : [ ]
+    },
+    "debugMode" : false,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "706020c0-41b8-11ee-b5dc-259ebcef3ad7"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : true,
+    "enabled" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "877b80b0-41b8-11ee-b5dc-259ebcef3ad7"
+    },
+    "name" : "test",
+    "remote" : false,
+    "routingKey" : "eba42dbe-c011-1b33-069f-99d27aa97f7f",
+    "secret" : "ccb658e2-1351-d92f-05cd-8d4f892edf4d",
+    "type" : "HTTP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
