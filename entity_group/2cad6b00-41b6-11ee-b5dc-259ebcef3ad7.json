@@ -1,0 +1,50 @@
+{
+  "entityType" : "ENTITY_GROUP",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : null
+    },
+    "configuration" : {
+      "columns" : [ {
+        "type" : "ENTITY_FIELD",
+        "key" : "created_time",
+        "sortOrder" : "DESC"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "title",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "email",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "country",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "city",
+        "sortOrder" : "NONE"
+      } ],
+      "settings" : { },
+      "actions" : { }
+    },
+    "edgeGroupAll" : false,
+    "externalId" : null,
+    "groupAll" : false,
+    "id" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "2cad6b00-41b6-11ee-b5dc-259ebcef3ad7"
+    },
+    "name" : "Customer Group 1",
+    "ownerId" : {
+      "entityType" : "TENANT",
+      "id" : "acbe9140-41aa-11ee-952d-fb2908301aee"
+    },
+    "type" : "CUSTOMER"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "groupEntities" : false
+}
