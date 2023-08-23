@@ -1,0 +1,47 @@
+{
+  "entityType" : "ENTITY_GROUP",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : null
+    },
+    "configuration" : {
+      "columns" : [ {
+        "type" : "ENTITY_FIELD",
+        "key" : "created_time",
+        "sortOrder" : "DESC"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "device_profile",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "label",
+        "sortOrder" : "NONE"
+      } ],
+      "settings" : { },
+      "actions" : { }
+    },
+    "edgeGroupAll" : false,
+    "externalId" : null,
+    "groupAll" : false,
+    "id" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "00e62150-41b2-11ee-952d-fb2908301aee"
+    },
+    "name" : "Device Group 1 (By Tenant)",
+    "ownerId" : {
+      "entityType" : "TENANT",
+      "id" : "acbe9140-41aa-11ee-952d-fb2908301aee"
+    },
+    "type" : "DEVICE"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "groupEntities" : false
+}
